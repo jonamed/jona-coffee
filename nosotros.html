@@ -56,19 +56,16 @@
         <!-- Informacion normal: GET -->
         <form action="#" method="GET">
 
-            <p>Dejanos tu comentario:</p>
-            <textarea cols="40" rows="5"></textarea>
-            <br>
-            <input class="form" type="text" placeholder="Nombre y apellido">
-            <br>
-            <input class="form" type="email" placeholder="nombre@gmail.com">
-            <br>
-            <input class="boton" type="submit" value="Enviar">
-            <br>
-            <label>
-                <span>Suscribirme al newsletter</span>
-                <input class="boton" type="checkbox">
-            </label>
+            <div class="mb-3">
+                <br>
+                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                <input type="text" class="form-control-lg" id="exampleFormControlInput1" placeholder="Jonathan Medina">
+              </div>
+              <div class="mb-3">
+                <br>
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos un comentario!</label>
+                <textarea class="form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
     </main>
 </body>
 <footer>
