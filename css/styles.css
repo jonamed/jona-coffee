@@ -2,12 +2,84 @@
     background-image: linear-gradient(to bottom, black, rgb(122, 122, 122));
 }
 
-.tituloIndex{
+.tituloIndex, .tituloVariedades{
     color: white;
     margin-left: 10px;
 }
 
-.w-100{
-    max-width: 70vw;
-    margin: 0 auto;
+.variedades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "mexico colombia"
+        "brasil ethiopia";
+    background-color: #649389;
+    color: white;
+    margin-top: 20px;
+}
+
+.mexico {
+    grid-area: mexico;
+}
+
+.colombia {
+    grid-area: colombia;
+}
+
+.brasil {
+    grid-area: brasil;
+}
+
+.ethiopia {
+    grid-area: ethiopia;
+}
+.variedades div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.variedades img {
+    max-width: 40vw;
+}
+
+.cafeteras {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.cafeteras img {
+    position: relative;
+    float: left;
+}.cafeteras p {
+    margin-top: 10px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .variedades {
+        background-color: #649389;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "mexico"
+            "brasil"
+            "colombia"
+            "ethiopia";
+        justify-items: center;
+        padding: 10px;
+
+    }
+    .cafeteras {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        background-color: #649389;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+    }
 }
