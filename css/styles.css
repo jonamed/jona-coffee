@@ -1,5 +1,6 @@
 .body{
     background-image: linear-gradient(to bottom, black, rgb(122, 122, 122));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .tituloIndex, .tituloVariedades, .tituloNosotros, .textoVariedades, .tituloCafeteras{
