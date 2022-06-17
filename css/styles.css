@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom, black, rgb(122, 122, 122));
 }
 
-.tituloIndex, .tituloVariedades, .tituloNosotros, .textoVariedades{
+.tituloIndex, .tituloVariedades, .tituloNosotros, .textoVariedades, .tituloCafeteras{
     color: white;
     margin-left: 10px;
 }
@@ -20,6 +20,13 @@
 
 .mexico {
     grid-area: mexico;
+    
+}
+.variedades img:hover{
+    transform: rotateZ(-.5deg);
+}
+.cafeteras img:hover{
+    transform: scale(1.05) ;
 }
 
 .colombia {
@@ -72,6 +79,10 @@
         padding: 10px;
 
     }
+    .variedades img {
+        max-width: 90vw;
+    }
+    
     .cafeteras {
         display: grid;
         grid-template-columns: 1fr;
@@ -82,4 +93,5 @@
         margin: 10px;
         padding: 10px;
     }
+
 }
