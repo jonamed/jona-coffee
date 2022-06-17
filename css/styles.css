@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom, black, rgb(122, 122, 122));
 }
 
-.tituloIndex, .tituloVariedades{
+.tituloIndex, .tituloVariedades, .tituloNosotros, .textoVariedades{
     color: white;
     margin-left: 10px;
 }
